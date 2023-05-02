@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Rufina:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
 
 .titulo {
     display: flex;
@@ -16,8 +17,109 @@ h1 {
     width: 100%;
 }
 
-/* Falta dar estilos a los <p> de cada imagen al rededor
-de la ilustracion con lineas que los unan */
+.menu {
+    margin-top: 3.5rem;
+}
+a {
+    text-decoration: none;
+}
+.links {
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    font-weight:600;
+    font-size: .9375rem;
+}
+
+.p1 {
+    position: relative;
+    top: 7rem;
+    left: .25rem ;
+}
+
+.p2 {
+    position: relative;
+    top: 0.8rem;
+    left: 1.5rem ;
+}
+
+.p3 {
+    position: relative;
+    top: 10rem;
+    left: .625rem;
+}
+
+.p4 {
+    position: relative;
+    bottom: 6.8rem;
+}
+
+.p5 {
+    position: relative;
+    top: 0.4rem;
+    left: 4.125rem;
+}
+
+.p6 {
+    position: relative;
+    bottom: 6.8rem;
+}
+
+.linea {
+    padding: 0%;
+    border-top: solid rgb(33, 130, 130);
+    width: 5rem;
+    height: .0063rem;
+    border-width: .125rem;
+}
+
+.l-1 {
+    position: relative;
+    transform: rotate(32deg);
+    top:7.5rem;
+    left: 4.2rem;
+    width: 9rem;
+}
+
+.l-2 {
+    position: relative;
+    transform: rotate(88deg);
+    top: 2.25rem;
+    left: 1.2rem;
+    width: 4.8rem;
+}
+
+.l-3 {
+    position: relative;
+    transform: rotate(150deg);
+    top: 10rem;
+    right: 6.375rem ;
+    width: 7.9rem;
+}
+
+.l-4 {
+    position: relative;
+    transform: rotate(149deg);
+    width: 7.9rem;
+    bottom: 13.75rem;
+    left: 5.3rem;
+}
+
+.l-5 {
+    position: relative;
+    transform: rotate(80deg);
+    bottom: 10.7rem;
+    right: 1.5rem;
+    width: 8.5rem;
+}
+
+.l-6 {
+    position: relative;
+    transform: rotate(30deg);
+    bottom:13rem;
+    right: 6.3rem;
+    width: 7rem;
+}
+
 .menu {
     display: flex;
     flex-direction: column;
@@ -32,7 +134,7 @@ de la ilustracion con lineas que los unan */
 
 .sillin-img {
     position: relative;
-    top: 100px;
+    top: 6.25rem;
     border: solid rgb(33, 130, 130);
     border-width: .125rem;
     border-radius: 90%;
@@ -45,6 +147,7 @@ de la ilustracion con lineas que los unan */
     border-width: .125rem;
     border-radius: 90%;
     padding: .3125rem;
+    left: 16px;
 }
 
 .manubrio-img {
@@ -55,6 +158,7 @@ de la ilustracion con lineas que los unan */
     border-radius: 90%;
     padding: .3125rem;
     left: .625rem;
+    top: 9.375rem;
 }
 
 .ilustracion {
@@ -72,13 +176,14 @@ de la ilustracion con lineas que los unan */
     gap: 9.375rem;
 }
 
-.piñon-img {
+.cadena-img {
     position: relative;
     border: solid rgb(33, 130, 130);
     border-width: .125rem;
     border-radius: 90%;
     padding: .375rem;
     bottom: 7.5rem;
+    left: 1.5rem;
 }
 
 .zapas-img {
@@ -87,6 +192,8 @@ de la ilustracion con lineas que los unan */
     border-width: .125rem;
     border-radius: 90%;
     padding: .3125rem;
+    left: 1rem;
+    bottom: .375rem;
 }
 
 .rueda-img {
