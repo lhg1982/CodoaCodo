@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Rufina:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+.titulo {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Rufina', serif;
+    color: rgb(33, 130, 130);
+    font-size: 70px;
+    letter-spacing: 2.5rem;
+    width: 100%;
+}
+
+.menu {
+    margin-top: 3.5rem;
+}
+a {
+    text-decoration: none;
+}
+.links {
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    font-weight:600;
+    font-size: .9375rem;
+}
+
+.p1 {
+    position: relative;
+    top: 7rem;
+    left: .25rem ;
+}
+
+.p2 {
+    position: relative;
+    top: 0.8rem;
+    left: 1.5rem ;
+}
+
+.p3 {
+    position: relative;
+    top: 10rem;
+    left: .625rem;
+}
+
+.p4 {
+    position: relative;
+    bottom: 6.8rem;
+}
+
+.p5 {
+    position: relative;
+    top: 0.4rem;
+    left: 4.125rem;
+}
+
+.p6 {
+    position: relative;
+    bottom: 6.8rem;
+}
+
+.linea {
+    padding: 0%;
+    border-top: solid rgb(33, 130, 130);
+    width: 5rem;
+    height: .0063rem;
+    border-width: .125rem;
+}
+
+.l-1 {
+    position: relative;
+    transform: rotate(32deg);
+    top:7.5rem;
+    left: 4.2rem;
+    width: 9rem;
+}
+
+.l-2 {
+    position: relative;
+    transform: rotate(88deg);
+    top: 2.25rem;
+    left: 1.2rem;
+    width: 4.8rem;
+}
+
+.l-3 {
+    position: relative;
+    transform: rotate(150deg);
+    top: 10rem;
+    right: 6.375rem ;
+    width: 7.9rem;
+}
+
+.l-4 {
+    position: relative;
+    transform: rotate(149deg);
+    width: 7.9rem;
+    bottom: 13.75rem;
+    left: 5.3rem;
+}
+
+.l-5 {
+    position: relative;
+    transform: rotate(80deg);
+    bottom: 10.7rem;
+    right: 1.5rem;
+    width: 8.5rem;
+}
+
+.l-6 {
+    position: relative;
+    transform: rotate(30deg);
+    bottom:13rem;
+    right: 6.3rem;
+    width: 7rem;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.top {
+    display: flex;
+    align-items: center;
+    gap: 9.375rem;
+}
+
+.sillin-img {
+    position: relative;
+    top: 6.25rem;
+    border: solid rgb(33, 130, 130);
+    border-width: .125rem;
+    border-radius: 90%;
+    padding: .3125rem;
+}
+
+.casco-img {
+    position: relative;
+    border: solid rgb(33, 130, 130);
+    border-width: .125rem;
+    border-radius: 90%;
+    padding: .3125rem;
+    left: 16px;
+}
+
+.manubrio-img {
+    position: relative;
+    top: 100px;
+    border: solid rgb(33, 130, 130);
+    border-width: .125rem;
+    border-radius: 90%;
+    padding: .3125rem;
+    left: .625rem;
+    top: 9.375rem;
+}
+
+.ilustracion {
+    display: flex;
+    position: relative;
+    margin-right: 90px;
+    margin-top: 2.5rem;
+    margin-bottom: 0%;
+}
+
+.bottom {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 9.375rem;
+}
+
+.cadena-img {
+    position: relative;
+    border: solid rgb(33, 130, 130);
+    border-width: .125rem;
+    border-radius: 90%;
+    padding: .375rem;
+    bottom: 7.5rem;
+    left: 1.5rem;
+}
+
+.zapas-img {
+    position: relative;
+    border: solid rgb(33, 130, 130);
+    border-width: .125rem;
+    border-radius: 90%;
+    padding: .3125rem;
+    left: 1rem;
+    bottom: .375rem;
+}
+
+.rueda-img {
+    position: relative;
+    border: solid rgb(33, 130, 130);
+    border-width: .125rem;
+    border-radius: 90%;
+    padding: .375rem;
+    bottom: 7.5rem;
+}
+
+.formulario {
+/* Habria que personalizarlo, el codigo del formulario en html 
+lo saque de Bootstrap */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
