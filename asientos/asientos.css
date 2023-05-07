@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Rufina:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comme:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comme:wght@500&family=Prompt:wght@300&display=swap');
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.icono-menu {
+    position: relative;
+    margin-top: 0.5rem;
+}
+
+h1 {
+    font-family: 'Rufina', serif;
+    color: rgb(33, 130, 130);
+    width: 100%;
+    font-size: 1.5rem;
+    text-align: center;
+    position: relative;
+    margin-top: -1.5rem;
+}
+
+.separador {
+    padding: 0%;
+    border-top: solid rgb(200, 200, 200);
+    width: 100%;
+    height: .0063rem;
+    border-width: .125rem;
+}
+
+.asientos-card {
+    display: flex;
+    flex-direction: column;
+}
+
+.asientos-titulo {
+    position: relative;
+    text-align: center;
+}
+
+h2 {
+    font-size: 2.5rem;
+    font-family: 'Prompt', sans-serif;
+    color: rgb(90, 90, 90);
+}
+
+.asientos-descrip {
+    font-family: 'Comme', sans-serif;
+    color: rgb(90, 90, 90);
+    text-align: center;
+}
+
+.tres-asientos {
+    display: flex;
+    justify-content: center;
+}
+
