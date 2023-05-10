@@ -1,9 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Rufina:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Comme:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Rufina:wght@700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Comme:wght@500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Comme:wght@500&family=Prompt:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Comme:wght@700&display=swap');
 
@@ -273,7 +270,7 @@ lo saque de Bootstrap */
     align-items: center;
 }
 
-
+/* ACA EMPIEZAN LOS ESTILOS DE LA PAGINA DE ASIENTOS */
 
 body {
     display: flex;
@@ -335,7 +332,7 @@ h2 {
 .tres-asientos {
     display: flex;
     justify-content: space-evenly;
-
+    margin-bottom: 6.25rem;
 }
 
 .links {
@@ -354,6 +351,7 @@ a {
     flex-direction: column;
     justify-content:initial;
     text-align: center;
+    background-color: rgba(252, 252, 251, 0.647);
     border: solid rgb(33, 130, 130);
     border-width: .125rem;
     border-radius: 20%;
@@ -400,11 +398,28 @@ a {
     border: none;
     border-radius: .3125rem;
     background-color: rgba(33, 130, 130, 0.51);
-    width: 17.3rem;
+    min-width: 17.3rem;
     height: 2rem;
     color: white;
     font-family: 'Comme', sans-serif;
     font-size: 1.25rem;
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, .5);
+    animation: pulso 1.8s infinite;
+}
+
+@keyframes pulso {
+    0% {
+        transform: scale(.99);
+        box-shadow: 0 0 0 0 rgba(33, 130, 130, .5) ;
+    }
+    70% {
+        transform: scale(.99);
+        box-shadow: 0 0 0 15px rgba(33, 130, 130, 0) ;
+    }
+    100% {
+        transform: scale(.99);
+        box-shadow: 0 0 0 0 rgba(33, 130, 130, 0) ;
+    }
 }
 
 .btn-selle {
@@ -427,6 +442,9 @@ a {
 .info {
     font-family: 'Comme', sans-serif;
     color: rgb(90, 90, 90);
+    background-color: rgba(255, 255, 255, 0.473);
+    border: none;
+    border-radius: 60%;
 }
 
 .p-info {
@@ -434,6 +452,7 @@ a {
 }
 
 .ficha-tecnica {
+    background-color: rgba(255, 255, 255, 0.549);
     border: solid  rgb(33, 130, 130);
     border-radius: 1.875rem;
     border-width: .0938rem;
