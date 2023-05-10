@@ -18,6 +18,17 @@ header {
     display: flex;
     flex-direction: column;
 }
+.icono-link-home :hover {
+    cursor: pointer;
+}
+.icono-menu {
+    position: fixed;
+    margin-top: .0625rem;
+    background-color: rgba(180, 180, 180, 0.271);
+    border: none;
+    border-radius: 90%;
+    padding: .5625rem;  
+}
 
 .titulo {
     display: flex;
@@ -352,6 +363,8 @@ a {
 .bloque {
     display: flex;
     flex-direction: column;
+    margin-top: 3.75rem;
+    margin-bottom: 3.75rem;
 }
 
 .sup {
@@ -382,16 +395,26 @@ a {
 
 .boton-compra {
     position: relative;
-    right: 6.25rem;
+    right: 10.625rem;
     padding: 1rem;
     border: none;
     border-radius: .3125rem;
     background-color: rgba(33, 130, 130, 0.51);
-    width: 21.875rem;
-    height: 3.75rem;
+    width: 17.3rem;
+    height: 2rem;
     color: white;
     font-family: 'Comme', sans-serif;
     font-size: 1.25rem;
+}
+
+.btn-selle {
+    position: relative;
+    left: .0625rem;
+}
+
+.btn-fizik {
+    position: relative;
+    right: 3.125rem;
 }
 
 .med {
@@ -420,5 +443,15 @@ a {
 
 .foto-asiento {
     position: relative;
-    right: 6.25rem;
+    right: 9.375rem;;
+}
+
+.inf {
+    display: flex;
+    justify-content: center;
+}
+
+.inf-vid {
+    width: 80%;
+    margin-top: 3.125rem;
 }
