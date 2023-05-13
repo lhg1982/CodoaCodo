@@ -7,8 +7,8 @@
 body {
     background-image: url(https://img.freepik.com/vector-gratis/fondo-abstracto-blanco_23-2148810113.jpg?w=2000);
     background-repeat: no-repeat;
-    background-size:cover ;
-    background-position: center;
+    background-size: cover;
+    background-position-x:center ;
 }
 
 header {
@@ -268,9 +268,35 @@ lo saque de Bootstrap */
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
+    align-items: center;
 }
 
-/* ACA EMPIEZAN LOS ESTILOS DE LA PAGINA DE ASIENTOS */
+.p-footer {
+    position: relative;
+    top: 1.5rem;
+    font-family: 'Comme', sans-serif;
+    color: rgb(70, 70, 70);
+    font-weight:400;
+    font-size: 1.5rem;
+    padding: 1.875rem;
+    margin-bottom: 0px;
+}
+
+.tiendas {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1.8rem;
+    background-color: white;
+    border-radius: 1.5rem;
+    padding: .625rem;
+    max-width: 100%;
+    margin-bottom: 1.875rem;
+
+}
+
+/* ACA EMPIEZAN LOS ESTILOS DE LAS PAGINAS DE ARTICULOS DE VENTA */
 
 body {
     display: flex;
@@ -326,7 +352,6 @@ h2 {
     font-family: 'Comme', sans-serif;
     color: rgb(90, 90, 90);
     text-align: center;
-
 }
 
 .tres-asientos {
@@ -368,6 +393,7 @@ a {
 .sup {
     display: flex;
     padding: .625rem;
+    margin-top: 1.25rem;
 }
 
 .sup-nombre {
@@ -393,7 +419,7 @@ a {
 
 .boton-compra {
     position: relative;
-    right: 10.625rem;
+    right: 6.25rem;
     padding: 1rem;
     border: none;
     border-radius: .3125rem;
@@ -422,14 +448,11 @@ a {
     }
 }
 
-.btn-selle {
-    position: relative;
-    left: .0625rem;
+.btn-compact {
+    margin-left: 9.375rem;
 }
-
-.btn-fizik {
-    position: relative;
-    right: 3.125rem;
+.btn-tonic {
+    margin-left: 7.7rem;
 }
 
 .med {
@@ -437,6 +460,7 @@ a {
     justify-content: space-between;
     margin-right: 3.125rem;
     margin-left: 6.25rem;
+    margin-top: 1.875rem
     
 }
 .info {
@@ -457,20 +481,23 @@ a {
     border-radius: 1.875rem;
     border-width: .0938rem;
     font-family: 'Prompt', sans-serif;
-    width: 30rem;
+    max-width: 30rem;
+    max-height: 25rem;
 }
 
 .foto-asiento {
     position: relative;
+    top: 2.8125rem;
     right: 9.375rem;;
 }
 
 .inf {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 
 .inf-vid {
+    margin-top: 1.875rem;
     width: 80%;
-    margin-top: 3.125rem;
 }
