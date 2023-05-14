@@ -14,11 +14,39 @@
 <body>
     <header>
         <br>
-        <div class="icono-menu">
-            <a class="icono-link-home" href="index2.html" target="_blank">
-                <i class="fa-solid fa-bars fa-xl" aria-hidden="true" style="color: #218282;"></i>               
-            </a>
+        
+        <!-- Botón con clic para el menu del header -->
+    <div class="dropdown">
+        <button onclick="myFunction()" class="dropbtn">|||</button>
+        <div id="myDropdown" class="dropdown-content">
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#contact">Contact</a>
         </div>
+      </div>
+      
+      <script>
+      /* When the user clicks on the button, 
+      toggle between hiding and showing the dropdown content */
+      function myFunction() {
+        document.getElementById("myDropdown").classList.toggle("show");
+      }
+      
+      // Close the dropdown if the user clicks outside of it
+      window.onclick = function(event) {
+        if (!event.target.matches('.dropbtn')) {
+          var dropdowns = document.getElementsByClassName("dropdown-content");
+          var i;
+          for (i = 0; i < dropdowns.length; i++) {
+            var openDropdown = dropdowns[i];
+            if (openDropdown.classList.contains('show')) {
+              openDropdown.classList.remove('show');
+            }
+          }
+        }
+      }
+      </script>
+      
         <div class="titulo">
             <h1>Sophis</h1>
         </div>

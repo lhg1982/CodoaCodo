@@ -7,17 +7,21 @@
 body {
     background-image: url(https://img.freepik.com/vector-gratis/fondo-abstracto-blanco_23-2148810113.jpg?w=2000);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100%;
     background-position-x:center ;
 }
 
 header {
     display: flex;
     flex-direction: column;
+    
 }
-.icono-link-home :hover {
+/*.icono-link-home :hover {
     cursor: pointer;
 }
+*/
+
+/*
 .icono-menu {
     position: fixed;
     margin-top: .0625rem;
@@ -26,6 +30,7 @@ header {
     border-radius: 90%;
     padding: .5625rem;  
 }
+*/
 
 .titulo {
     display: flex;
@@ -302,6 +307,7 @@ body {
     flex-direction: column;
 }
 
+/*
 .icono-menu {
     position: fixed;
     margin-top: .0625rem;
@@ -310,6 +316,7 @@ body {
     border-radius: 90%;
     padding: .5625rem;  
 }
+*/
 
 h1 {
     font-family: 'Rufina', serif;
@@ -504,38 +511,38 @@ a {
 
 .dropbtn {
     background-color:transparent;
-    color: rgb(158, 13, 241);
-    padding: 25px;
+    position: relative;
+    display: flex;
+    margin-left: 15px;
+    letter-spacing: 3px;
+    color: rgb(157, 0, 248);
     font-size: 26px;
     border: none;
     cursor: pointer;
-    transform: rotate(90deg);
     -ms-transform: rotate(90deg);
-    -webkit-animation: alternate;
+    transform: rotate(90deg);
   }
   
-  /* Dropdown button on hover & focus */    
   .dropbtn:hover, .dropbtn:focus {
-    background-color: #c2c7ca;
+    background-color: #bcd5e4;
   }
   
-  /* The container <div> - needed to position the dropdown content */
   .dropdown {
     position: relative;
     display: inline-block;
   }
   
-  /* Dropdown Content (Hidden by Default) */
   .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #f1f1f1;
+    margin-left: 25px;
+    margin-top: 10px;
+    background-color: #a6d7f8;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
   }
   
-  /* Links inside the dropdown */
   .dropdown-content a {
     color: black;
     padding: 12px 16px;
@@ -544,7 +551,29 @@ a {
   }
   
   /* Change color of dropdown links on hover */
-  .dropdown-content a:hover {background-color: #ddd;}
+  .dropdown-content a:hover {background-color: #b4d8f5;}
   
-  /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
   .show {display:block;}
+
+/* Estilo para la grilla de contacto */
+.header {grid-area: header;}
+.formulario {grid-area: formulario;}
+.footer {grid-area: footer;}
+
+.grid-container {
+    background-color: transparent;
+    display: grid;
+    grid-template-areas:
+        'header header header header header header'
+        '. formulario formulario formulario formulario .'
+        'footer footer footer footer footer footer';
+    grid-gap: 30px;
+    padding: 10px;  
+}
+
+.grid-container > div {
+    background-color: transparent;
+    text-align: center;
+    padding: 50px 0;
+    font-size: 40px;
+}
